@@ -1,0 +1,178 @@
+• Form Meaning player groups
+• Discover other players that are similar to your favorite athlete
+• Form string teams by using analytics
+
+
+### Asking the Right Question
+     • Define the problem
+     • Assess the Situation
+        • Risks
+        • Benefits
+        • Contigencies
+        • Regulations
+        • Resources
+        • Requirements
+    • Define Goals
+        • Objective
+        • Criteria
+
+### Order is:
+    Define the problem    =
+    Assess the Situation  =     Formulate the Question
+    Define Goals          =
+
+As yourself:
+"What insights do I expect to get!"
+
+## INSIGHTS
+	• Better undersanding and insights on
+	  • player strengths
+	  • enhancing performance
+	  • critical attributes for a player's performance
+
+## ACTIONS
+	• Coach can design programs that improve these areas in teams
+
+There are five key steps in the overall process of data science, namely, data acquisition, data preparation, data analysis, presentation and reporting of insights and turning these insights into data-driven actions.
+
+## ACQUIRE
+	• Import raw dataset into your analytics platform
+    • Identify data sets
+    • Retrieve data
+    • Query data
+
+Where's data come?'
+Traditional databases - SQL and query browsers
+Remote data - Web Services
+Text files - Scripting languages
+NoSQL storage = Web Services & Programming Interfaces
+
+## PREPARE
+	• Explore & Visualize
+		1º Step:
+		    • Explore data
+		      • Premiliminary analysis
+		      • Understand nature of data
+      		First step in data preparation involves literally looking at the data to understand its nature, what it means, it's quality, and format.
+
+			First thing to do is find correlations, general trends, outliers.
+
+			Correlation graphs can be used to explore the dependenciesbetween different variables in the data.
+			General trends show you a simple graph of how the data is progressing over time.
+			Outliers show you the data points that are distant from other data points.
+
+			Mean and median are measures of the location of specific values.
+			Mode is the value that occurs most frequently in your data set.
+			And range and standard deviation are measures of spread in your data.
+
+			A heat map, for instance, such as the one shown here, can quickly give you an idea where the hot spots are.
+			Many different types of graphs can be used.
+			Histograms show the distribution of the data and can show skewness or unusual dispersion.
+			Boxplots are another type of plot for showing data distribution.
+			Line graphs are useful for seeing how values in your data change over time.
+			Spikes in the data are also easy to spot.
+			Scatter plots can show correlation between two variables.
+			Overall, there are many types of graphs
+			that visualize data.
+
+			Data Exploration -> Data Understanding -> Informed Analysis.
+
+	• Perform Data Cleaning
+		2º Step:
+		    • Pre-process Data
+		      • Clean
+		      • Integrate
+		      • Package
+
+		Clean + Transform
+
+		Real-world data is messy!
+		    • Inconsistent values
+		    • Duplicate records
+		    • Missing values
+		    • Invalid data
+		    • Outliers
+		Addressing Data Quality Issue
+		    • Remove data with missing values
+		    • Merge duplicate records
+		    • Generate best estimate for invalid values
+		    • Remove outliers
+
+		Data Munging:
+		    • Dimensionality Reduction
+		    • Data Manipulation
+		    • Transformation
+		    • Feature Selection
+		    • Scaling
+
+## ANALYZE
+	• Feature Selection
+	• Model Selection
+	• Analyze the results
+    • Select analytical techniques, Build models.
+
+## REPORT
+	• Present your findings
+    • Communicate results
+## ACT
+	• Use them
+    • Apply Results, Results => Purpose
+
+Data Cleaning:
+
+Why do we need to clean data?
+	• Missing entries
+	• Garbage values
+	• NULLs
+How do we clean data?
+	• Remove the entries
+	• Impute these entries with a counterpart
+	  • Ex. Average vales of the column
+	  • Ex. Assign 0, -1, etc
+
+# Programming:
+
+Exploring the dataset on Python
+df.describe().transpose() - Generate vital statistical summary of your datasets loke mean and standard deviation.
+
+```
+# is any row NULL ?
+
+# 0 = ROW
+# 1 = COLUMN
+
+rows = df.shape[0]
+df.isnull().any().any(), df.shape
+
+# Fix it
+
+df = df.dropna()
+```
+
+library "scikit-learn" is a library for Machine Learning on Python
+
+K-MEANS clustering in python:
+```
+from sklearn.cluster import Kmeans
+
+Y = KMeans(c_clusters=3, random_state=random_state).fit_predict(x)
+```
+Analysis and Modeling:
+	• Supervised Learning
+		• 
+	• Unsupervised Learning
+		• 
+	• Semi supervised Learning
+		• 
+
+Data Analysis Study Case:
+
+What are instrinsic attributes on which 'you' would group players?
+
+You can also build complex features 
+f ( shot power, reaction time)
+
+Interpreting Clustering Results
+	• How many players per cluster?
+	  • Too many in few clusters?
+	  • Too few?
