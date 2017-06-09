@@ -163,15 +163,15 @@ Modeling Starts:
 
 Data Cleaning:
 
-Why do we need to clean data?
-	• Missing entries
-	• Garbage values
-	• NULLs
-How do we clean data?
-	• Remove the entries
-	• Impute these entries with a counterpart
-	  • Ex. Average vales of the column
-	  • Ex. Assign 0, -1, etc
+	Why do we need to clean data?
+		• Missing entries
+		• Garbage values
+		• NULLs
+	How do we clean data?
+		• Remove the entries
+		• Impute these entries with a counterpart
+		  • Ex. Average vales of the column
+		  • Ex. Assign 0, -1, etc
 
 # Programming:
 
