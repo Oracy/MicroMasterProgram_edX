@@ -37,9 +37,9 @@ There are five key steps in the overall process of data science, namely, data ac
 
 ## ACQUIRE
 	• Import raw dataset into your analytics platform
-    • Identify data sets
-    • Retrieve data
-    • Query data
+	• Identify data sets
+	• Retrieve data
+	• Query data
 
 Where's data come?'
 Traditional databases - SQL and query browsers
@@ -111,14 +111,30 @@ NoSQL storage = Web Services & Programming Interfaces
 	• Analyze the results
     • Select analytical techniques, Build models.
 	
-	Build Model:
+### Build Model:
 	Input Data -> Analysis Technique -> Model -> Model Output
 
 	Classification: Predict category of the input data e.g.: Weather, Tumor (benign, malignant)
 	Regression: Predict numeric value e.g.: Weekly sales of a new product, predicting the score on a test.
 	Clustering: Organize similar items into groups e.g.: Seniors, Adults, Teenagers.
 	Association Analysis: Find rules to capture associations between items e.g.: diapers and beers, market
-	Graph Analytics: Use graph structure to find connetions between entities e.g.: epidemic by analyzing hospitals and doctors' records,
+	Graph Analytics: Use graph structure to find connetions between entities e.g.: epidemic by analyzing hospitals and doctors' records.
+### Evaluate the model:
+	Classification and Regression
+		• Predict value vs Correct Value - We have the correct output for each sample in our input data. Comparing the correct output and the output predicted by the model provides a way to evaluate the model.
+
+	Clustering
+		• Should be examined to see if they make sense for your application. For example, do the customer segments reflect your customer base? Are they helpful for use
+
+	Association Analysis and Graph Analytics
+		• Some investigation will be needed to see if the results are correct. For example, network traffic delays need to be investigated to see if what your model predicts is actually happening, and whether the sources of the delays are where they are predicted to be in the real system.
+
+
+Determine Next Steps
+	• Repeat analysis?
+		• Should the analysis be performed with more data in order to get better model performance?
+	• Take deeper dive?
+	• Act on results?
 
 Modeling Starts:
 	Select technique -> Build model -> Validate model
@@ -128,7 +144,15 @@ Modeling Starts:
 
 ## REPORT
 	• Present your findings
-    • Communicate results
+    	• Communicate results
+	
+### Reporting Insights
+	Communicate Results (Insights)
+		• Look at your results and decide what to present
+			• Part of that means determining what part of your analysis is mos important to offer the BIGGEST value:
+				• What's my punchline? What are the main results?
+				• How can the model add to this application? How do the results compare to the success criteria determined at the beginning of the project for that application's specific purpose?
+				
 ## ACT
 	• Use them
     • Apply Results, Results => Purpose
@@ -191,3 +215,14 @@ Interpreting Clustering Results
 	• How many players per cluster?
 	  • Too many in few clusters?
 	  • Too few?
+	  
+## Numpy
+	• Support for multi-dimensional arrays.
+	• Built-in array operations.
+	• Simplified, but powerful array nteractions -> broadcasting.
+	• Integration of other languages (Fortran, C, C++).
+
+### Why numpy for data science?
+	• Speed.
+	• Functionaliy.
+	
