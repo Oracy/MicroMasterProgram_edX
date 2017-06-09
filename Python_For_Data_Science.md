@@ -155,7 +155,9 @@ Modeling Starts:
 				
 ## ACT
 	• Use them
-    • Apply Results, Results => Purpose
+    	• Apply Results, Results => Purpose
+	• Apply Results -> Purpose
+	• big data and data science are only useful if the insights can be turned into actions, and action should be carefully defined and evaluated.
 
 Data Cleaning:
 
