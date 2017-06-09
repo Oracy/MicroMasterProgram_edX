@@ -1,5 +1,7 @@
 • Form Meaning player groups
+
 • Discover other players that are similar to your favorite athlete
+
 • Form string teams by using analytics
 
 
