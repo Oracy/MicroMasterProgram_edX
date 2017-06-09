@@ -117,10 +117,15 @@ NoSQL storage = Web Services & Programming Interfaces
 	Input Data -> Analysis Technique -> Model -> Model Output
 
 	Classification: Predict category of the input data e.g.: Weather, Tumor (benign, malignant)
+	
 	Regression: Predict numeric value e.g.: Weekly sales of a new product, predicting the score on a test.
+	
 	Clustering: Organize similar items into groups e.g.: Seniors, Adults, Teenagers.
+	
 	Association Analysis: Find rules to capture associations between items e.g.: diapers and beers, market
+	
 	Graph Analytics: Use graph structure to find connetions between entities e.g.: epidemic by analyzing hospitals and doctors' records.
+	
 ### Evaluate the model:
 	Classification and Regression
 		• Predict value vs Correct Value - We have the correct output for each sample in our input data. Comparing the correct output and the output predicted by the model provides a way to evaluate the model.
