@@ -150,7 +150,7 @@ How do we clean data?
 Exploring the dataset on Python
 df.describe().transpose() - Generate vital statistical summary of your datasets loke mean and standard deviation.
 
-```
+```python
 # is any row NULL ?
 
 # 0 = ROW
@@ -167,7 +167,7 @@ df = df.dropna()
 library "scikit-learn" is a library for Machine Learning on Python
 
 K-MEANS clustering in python:
-```
+```python
 from sklearn.cluster import Kmeans
 
 Y = KMeans(c_clusters=3, random_state=random_state).fit_predict(x)
